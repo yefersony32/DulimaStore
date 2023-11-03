@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="dulimastore_admin_web">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>dulimastore_admin_web</title>
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+</head>
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-storage.js"></script>
+
+
+<script type="module">
+
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+  import { getAuth } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js'
+  import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js'
+  import { getStorage } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-storage.js";
+
+
+  https://firebase.google.com/docs/web/setup#available-libraries
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDML4Js8bZwA2t7_MPOZrcO4BMe97tZO1A",
+    authDomain: "dulimastore-app.firebaseapp.com",
+    projectId: "dulimastore-app",
+    storageBucket: "dulimastore-app.appspot.com",
+    messagingSenderId: "506140097627",
+    appId: "1:506140097627:web:fc95467140383a7615537e",
+    measurementId: "G-1PC2KS4CDN"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+</script>
+
+<script src="main.dart.js" type="application/javascript"></script>
+
+<!--<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+
+</script>-->
+
+
+</body>
+</html>

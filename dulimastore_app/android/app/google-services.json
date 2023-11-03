@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "506140097627",
+    "project_id": "dulimastore-app",
+    "storage_bucket": "dulimastore-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506140097627:android:2d359ef1f72d758e15537e",
+        "android_client_info": {
+          "package_name": "com.dulimastore_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506140097627-v8ppenfqg6hs04hrsj0c83ke1mjh0cku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dulimastore_app",
+            "certificate_hash": "e7980eb23364d4195b942ebf1b24b4aa924ce176"
+          }
+        },
+        {
+          "client_id": "506140097627-ln2sg9fdjim2ughltq5g7u8fgavgvs60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR5IgtvvODOZFiGz13WUI1uBEFOCFgI9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506140097627-ln2sg9fdjim2ughltq5g7u8fgavgvs60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
