@@ -15,12 +15,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyDML4Js8bZwA2t7_MPOZrcO4BMe97tZO1A",
-      authDomain: "dulimastore-app.firebaseapp.com",
-      projectId: "dulimastore-app",
-      storageBucket: "dulimastore-app.appspot.com",
-      messagingSenderId: "506140097627",
-      appId: "1:506140097627:web:fc95467140383a7615537e",
+
     ),
   );
   runApp(const MyApp());
