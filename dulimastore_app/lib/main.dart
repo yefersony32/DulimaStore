@@ -18,12 +18,7 @@ void main() async{
   await Firebase.initializeApp(
     name: 'DulimaStore-App',
     options: const FirebaseOptions(
-        apiKey: "AIzaSyCR5IgtvvODOZFiGz13WUI1uBEFOCFgI9Q",
-        authDomain: "dulimastore-79cd5.firebaseapp.com",
-        projectId: "dulimastore-app",
-        storageBucket: "dulimastore-79cd5.appspot.com",
-        messagingSenderId: "340326267932",
-        appId: "1:506140097627:Android:2D359EF1F72D758E15537E"
+       
     ),
   );
   runApp(MultiProvider(
